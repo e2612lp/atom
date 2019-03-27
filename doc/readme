@@ -1,0 +1,43 @@
+/*
+ * 
+ 
+sys:
+ * g_dev_cfg
+
+ * sys_uart_trans_state
+ *       cfg  trans  ??
+ * 
+ * 
+uart:
+ * uart_recvbuf
+
+
+net: 
+ * net_tx_list
+ *     head  
+ *        pnext
+ *        ptail
+ *       total_cnt
+ *     node  
+ *          pnext
+ *          data
+ *          try_send_cnt
+ * net_rx_list
+ *     head
+ *         pnext
+ *         ptail
+ *         tatal_cnt
+ *     node
+ *         pnext
+ *         data
+ * 
+ * net_dev_status
+ *     status
+ *     heartbeat_time
+ * 
+   
+*/
+
+
+main arch 
+
